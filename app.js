@@ -5,5 +5,6 @@ window.onload = function() {
 }
 
 function update() {
-
+  gl.clearColor(0, 1, 1, 1);
+  gl.clear(gl.COLOR_BUFFER_BIT);
 }

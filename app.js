@@ -8,7 +8,7 @@ function update() {
   vertexData = [
     0, 1, 0,
     1, -1, 0,
-    -1, 1, 0
+    -1, -1, 0,
   ];
   buffer = gl.createBuffer();
   gl.bindBuffer(gl.ARRAY_BUFFER, buffer);

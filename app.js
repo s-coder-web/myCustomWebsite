@@ -5,6 +5,12 @@ window.onload = function() {
 }
 
 function update() {
-  gl.clearColor(0, 1, 1, 1);
-  gl.clear(gl.COLOR_BUFFER_BIT);
+  vertexData = [
+    0, 1, 0,
+    1, -1, 0,
+    -1, 1, 0
+  ];
+  buffer = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertexData), gl.STATIC_DRAW);
 }

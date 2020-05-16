@@ -2,3 +2,8 @@ body
 {
   background: linear-gradient(#1313d6, #5ee8f7);
 }
+
+.btn
+{
+  background: linear-gradient(red, blue);
+}

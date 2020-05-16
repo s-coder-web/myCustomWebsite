@@ -3,7 +3,7 @@ body
   background: linear-gradient(#1313d6, #5ee8f7);
 }
 
-.btn
+#btn
 {
   width: 400;
   height: 400;

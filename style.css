@@ -5,5 +5,7 @@ body
 
 .btn
 {
+  width: 400;
+  height: 400;
   background: linear-gradient(red, blue);
 }
